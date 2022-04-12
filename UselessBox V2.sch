@@ -271,27 +271,17 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x03 J2
 U 1 1 6259A855
-P 9250 3150
-F 0 "J2" H 9330 3192 50  0000 L CNN
-F 1 "Conn_01x03" H 9330 3101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9250 3150 50  0001 C CNN
-F 3 "~" H 9250 3150 50  0001 C CNN
-	1    9250 3150
+P 9250 3250
+F 0 "J2" H 9330 3292 50  0000 L CNN
+F 1 "Conn_01x03" H 9330 3201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9250 3250 50  0001 C CNN
+F 3 "~" H 9250 3250 50  0001 C CNN
+	1    9250 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 3050 8950 3050
-Wire Wire Line
-	8950 3050 8950 2850
-Wire Wire Line
 	8950 2850 8300 2850
 Connection ~ 8300 2850
-Wire Wire Line
-	9050 3150 8700 3150
-Wire Wire Line
-	9050 3250 8950 3250
-Wire Wire Line
-	8950 3250 8950 4350
 Wire Wire Line
 	8950 4350 8300 4350
 Connection ~ 8300 4350
@@ -485,4 +475,14 @@ Wire Wire Line
 Wire Wire Line
 	3250 3650 3250 4050
 Connection ~ 3250 3650
+Wire Wire Line
+	8700 3150 9050 3150
+Wire Wire Line
+	9050 3250 8950 3250
+Wire Wire Line
+	8950 3250 8950 2850
+Wire Wire Line
+	9050 3350 8950 3350
+Wire Wire Line
+	8950 3350 8950 4350
 $EndSCHEMATC
