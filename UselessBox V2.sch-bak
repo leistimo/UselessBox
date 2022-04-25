@@ -365,7 +365,7 @@ L Connector:Conn_01x02_Female J3
 U 1 1 6261F659
 P 2350 3550
 F 0 "J3" H 2242 3225 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 2350 3100 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2242 3316 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2350 3550 50  0001 C CNN
 F 3 "~" H 2350 3550 50  0001 C CNN
 	1    2350 3550
