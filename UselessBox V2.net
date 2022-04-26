@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\leistimo\\Documents\\GitHub\\UselessBox\\UselessBox V2\\UselessBox V2.sch")
-    (date "4/26/2022 8:11:16 AM")
+    (date "4/26/2022 9:08:43 AM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
