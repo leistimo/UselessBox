@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:UselessBox V2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -258,8 +259,6 @@ Connection ~ 7700 3250
 Wire Wire Line
 	7700 3250 7700 3150
 Wire Wire Line
-	6900 2850 7400 2850
-Wire Wire Line
 	7700 3050 7700 2850
 Wire Wire Line
 	7700 3050 7900 3050
@@ -323,20 +322,6 @@ Connection ~ 5300 4350
 Wire Wire Line
 	5300 4350 5050 4350
 $Comp
-L power:PWR_FLAG #FLG0105
-U 1 1 625D6FA7
-P 7400 2850
-F 0 "#FLG0105" H 7400 2925 50  0001 C CNN
-F 1 "PWR_FLAG" H 7400 3023 50  0000 C CNN
-F 2 "" H 7400 2850 50  0001 C CNN
-F 3 "~" H 7400 2850 50  0001 C CNN
-	1    7400 2850
-	1    0    0    -1  
-$EndComp
-Connection ~ 7400 2850
-Wire Wire Line
-	7400 2850 7700 2850
-$Comp
 L Switch:SW_SPDT SW1
 U 1 1 625D785C
 P 2750 3200
@@ -352,8 +337,6 @@ Text Label 4200 3250 0    50   ~ 0
 VIN+
 Text Label 5350 4350 0    50   ~ 0
 GND
-Text Label 5400 3250 0    50   ~ 0
-5V
 Text Label 6300 2850 0    50   ~ 0
 5Vout
 Text Label 2950 3100 0    50   ~ 0
@@ -483,4 +466,6 @@ Wire Wire Line
 	2550 3200 2550 3450
 Wire Wire Line
 	3050 3100 2950 3100
+Wire Wire Line
+	6900 2850 7700 2850
 $EndSCHEMATC
