@@ -71,7 +71,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Gerber Files/")
+      (outputdirectory "Gerber Files/GerberFilesV3/")
     )
   )
 
@@ -5051,7 +5051,7 @@
       (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp d22878a1-ddb1-4e9b-8433-a5ceaae73692))
     (fp_line (start 5.96 2.032) (end -2 2.032)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7dd17279-c9c4-40b1-b21c-ed3dd202f8ff))
-    (pad "1" thru_hole roundrect (at 0 0) (size 2.7 2.7) (drill 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.092593)
+    (pad "1" thru_hole roundrect (at 0 0) (size 2.7 2.7) (drill 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.09259296296)
       (net 4 "/B+") (pinfunction "Pin_1") (pintype "passive") (tstamp 2658a6c2-38dd-4ae0-bba9-d3691afff067))
     (pad "2" thru_hole circle (at 3.96 0) (size 2.7 2.7) (drill 1.7) (layers "*.Cu" "*.Mask")
       (net 1 "/VIN+") (pinfunction "Pin_2") (pintype "passive") (tstamp e7cfa82d-e991-4918-8231-38a85c9f0baa))
